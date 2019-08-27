@@ -1,0 +1,3 @@
+This repository holds my solutions to various Operation Code daily programmer. Most solutions are in Python as that is what I am most comfortable with. Some solutions may be in C. I plan to approach the daily programmers as one would a daily crossword puzzle: a mental activity that does not demand a great amount of effort, but still sharpens the skills.
+
+Any feedback on a module is absolutely welcome.
