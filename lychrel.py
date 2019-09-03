@@ -6,11 +6,19 @@ def main():
     not_lychrel_numbers = []
     for n in range(up_to):
         if get_lychrel_numbers(n):
-            lychrel_numbers.append(n)
-        else:
             not_lychrel_numbers.append(n)
+        else:
+            lychrel_numbers.append(n)
     print(f'The number of Lychrel numbers under {up_to:,} is {len(lychrel_numbers):,}.')
     print(f'The number of non-Lychrel numbers under {up_to:,} is {len(not_lychrel_numbers):,}.')
+    try:
+        print(lychrel_numbers.index(196))
+    except:
+        print('Not in lychrel_numbers list')
+    try:
+        print(not_lychrel_numbers.index(196))
+    except:
+        print('Not in non_lychrel_numbers list')
 
 def get_lychrel_numbers(x):
     first_number = x    
